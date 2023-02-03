@@ -8,7 +8,7 @@ module.exports = {
             {
                 oneOf: [  // 表示当匹配到一个规则的时候，就不再匹配其他的了
                     {
-                        test: /\.(js|jsx|ts|tsx)$/,
+                        test: /\.(js|jsx)$/,
                         include: [
                             path.resolve(__dirname, '../src')
                         ],

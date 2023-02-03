@@ -3,7 +3,7 @@ import { HashRouter, Route, Routes } from "react-router-dom"
 import LazyComponent from './lazy-component.jsx'
 
 // 引入页面
-let Index = LazyComponent(() => import('./pages/Index/index.tsx'))
+let Index = LazyComponent(() => import('./pages/Index/index.jsx'))
 
 class App extends React.Component {
   render() {
